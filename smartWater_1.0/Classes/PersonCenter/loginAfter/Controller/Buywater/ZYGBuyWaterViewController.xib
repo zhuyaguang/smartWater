@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZYGBuyWaterViewController">
+            <connections>
+                <outlet property="controllerView" destination="ygK-uF-Sx6" id="k76-Rg-jgI"/>
+                <outlet property="pickView" destination="RUc-nf-mc6" id="3tZ-N4-Xl5"/>
+                <outlet property="previewView" destination="JoH-df-phl" id="kIC-zY-X7L"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="waterNumberField" destination="NnO-wD-yTT" id="ehb-KV-V8j"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JoH-df-phl">
+                    <rect key="frame" x="0.0" y="93" width="320" height="320"/>
+                    <animations/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ygK-uF-Sx6">
+                    <rect key="frame" x="0.0" y="92" width="320" height="362"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzb-IN-FgZ">
+                            <rect key="frame" x="20" y="49" width="50" height="60"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="1">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请输入购水量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyq-1z-tba">
+                            <rect key="frame" x="19" y="181" width="131" height="21"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICa-7p-tnU">
+                            <rect key="frame" x="90" y="49" width="50" height="60"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.093122214566875638" green="1" blue="0.26259928334127247" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="2"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bvl-Bx-fQ7">
+                            <rect key="frame" x="230" y="49" width="50" height="60"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.20309212890441897" green="1" blue="0.32515215540866094" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="4"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mdz-Mh-2cp">
+                            <rect key="frame" x="160" y="49" width="50" height="60"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.10138458222537339" green="1" blue="0.12774802666294949" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="3"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请选择饮水机" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Vo-gF-hJf">
+                            <rect key="frame" x="106" y="8" width="131" height="21"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inS-Vt-V1Y">
+                            <rect key="frame" x="85" y="228" width="150" height="40"/>
+                            <animations/>
+                            <color key="backgroundColor" red="1" green="0.95353590460000004" blue="0.41381476360000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="买水">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.95686274510000002" green="0.0" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="buyWaterButtonClick:" destination="-1" eventType="touchUpInside" id="qoa-2A-8qQ"/>
+                            </connections>
+                        </button>
+                        <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RUc-nf-mc6">
+                            <rect key="frame" x="179" y="117" width="133" height="85"/>
+                            <animations/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="ECG-1W-XH0"/>
+                            </connections>
+                        </pickerView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="300ml" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NnO-wD-yTT">
+                            <rect key="frame" x="19" y="125" width="108" height="30"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="JHd-gB-9sU"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="-66" y="287"/>
+        </view>
+    </objects>
+</document>
