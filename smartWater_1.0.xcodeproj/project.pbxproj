@@ -1088,6 +1088,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = smartWater_1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/smartWater_1.0/Classes/lib/SDKExport",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "---.smartWater-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1100,6 +1104,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = smartWater_1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/smartWater_1.0/Classes/lib/SDKExport",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "---.smartWater-1-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
